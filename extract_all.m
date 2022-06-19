@@ -2,9 +2,9 @@ clc;
 clear all;
 tic;
 
-file_path='D:\pic\FFHQ\FFHQ\';
+file_path='D:\pic\stylegan\';
 
-img_path_list = dir(strcat(file_path,'*.png'));
+img_path_list = dir(strcat(file_path,'*.jpg'));
 
 
 n=20000;
